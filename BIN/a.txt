@@ -1,0 +1,29 @@
+test()
+{
+File writename = new File(outputPath);
+            writename.createNewFile();
+codeLine*/
+
+            BufferedWriter out = new BufferedWriter(new FileWriter(writename));
+    //noteLine
+            out.write(outputBuffer);
+			
+/*noteLine
+/*noteLine
+*/
+/*noteLine*/
+/*noteLine
+//noteLine
+*/codeLine
+            out.flush();
+            out.close();
+}//noteLine
+for(){
+}/*noteLine*/   night-  night- night-night-night-
+let's  fx222
+let's let's let's let's
+sss'loii
+123sadaw
+(see Box 3¨C2).8885d_c01_016
+content-based
+content-based

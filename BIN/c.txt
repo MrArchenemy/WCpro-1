@@ -1,0 +1,10 @@
+When it comes to a secure website and passwords it is all in your hands to create a password that a hacker simply cannot crack. However, this will require that you be creative and use everything at your fingertips to create the strongest password possible for a secure web site.
+Tip #1 - Use All Spaces
+No matter how many characters are available for your password you should be sure to use every one of them. The more characters available for your password and the more you use makes it that much harder to figure out the combination. Always make use of all characters available for a strong and secure password.
+Tip #2 - Obscure not Obvious
+Personal information such as names, birthdays, nicknames, pet's names, social security numbers, and the like should never, ever, ever be used because these are way too obvious and too easy to crack. The more you avoid using things like this as your passwords, the more secure your login areas will be.
+Tip #3 - Non-Alphabet
+Never use just the alphabet to create your password. If you include numbers, hyphens, dashes, and other symbols or characters, you will have a more secure password which is increasingly harder to crack with every different symbol or number you add.
+Tip #4 - Don't Write Your Password
+This tip you should already know, but once you have created your super secure password to protect your website, commit it to memory, never share it with anyone, and never, ever write it down. No matter how secure you think the location is, if you write the password down you are decreasing the security of your website.
+-sususu
