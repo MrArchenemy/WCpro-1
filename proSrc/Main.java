@@ -9,7 +9,11 @@ import java.util.TreeMap;
 public class Main {
 	public static void main(String[] args)throws Exception {
         if(args.length<1){
-            throw new IllegalArgumentException("输入足够的参数");
+            throw new IllegalArgumentException("请输入足够的参数");
+        }
+        if(args[args.length-1].indexOf("txt")==-1)
+        {
+        	throw new IllegalArgumentException("请输入txt文件");
         }
         String filepath=null;//默认被统计文件路径
         String outpath="result.txt";//默认结果保存路径

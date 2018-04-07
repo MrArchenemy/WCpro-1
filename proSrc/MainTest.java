@@ -16,20 +16,15 @@ public class MainTest {
 	
 	@Test
 	public void testTime() throws IOException {
-		String filepath="big1.c";
+		String filepath="big3.txt";
 		String outpath="result.txt";
 		Map<String, Integer> sum=Main.scan(filepath);
 		String res=Main.SortMap(sum);
         Main.writetxt(res,outpath);
 		assertTrue(true);
 	}
-	
-	@Test
-	public void testMain() {
-		fail("Not yet implemented");
-	}
 
-	@Test
+	/*@Test
 	public void testScan() throws IOException {
 		String filepath="big1.c";
 		Main.scan(filepath);
@@ -54,5 +49,6 @@ public class MainTest {
 	public void testWritetxt() {
 		fail("Not yet implemented");
 	}
+	*/
 
 }
