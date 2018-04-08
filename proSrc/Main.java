@@ -46,7 +46,7 @@ public class Main {
                 		}
                 	}
                 	//第一个带短横线的但未链接的单词去掉短线
-                	if((tmp[i].substring(0,1)).equals("-"))
+                	else if((tmp[i].substring(0,1)).equals("-"))
                 	{
                 		if(tmp[i].length()!=1)//避免单个横线时输出空字符
                 		{
