@@ -9,7 +9,11 @@ import java.util.TreeMap;
 public class Main {
 	public static void main(String[] args)throws Exception {
         if(args.length<1){
-            throw new IllegalArgumentException("输入足够的参数");
+            throw new IllegalArgumentException("请输入足够的参数");
+        }
+        if(args[args.length-1].indexOf("txt")==-1)
+        {
+        	throw new IllegalArgumentException("请输入txt文件");
         }
         String filepath=null;//默认被统计文件路径
         String outpath="result.txt";//默认结果保存路径
@@ -42,7 +46,7 @@ public class Main {
                 		}
                 	}
                 	//第一个带短横线的但未链接的单词去掉短线
-                	if((tmp[i].substring(0,1)).equals("-"))
+                	else if((tmp[i].substring(0,1)).equals("-"))
                 	{
                 		if(tmp[i].length()!=1)//避免单个横线时输出空字符
                 		{
